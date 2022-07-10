@@ -304,7 +304,7 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 900;
-    background-image: linear-gradient(to bottom, #fff 44%, #cf9f00 0%);
+    background-image: linear-gradient(to bottom, #fff 48%, #cf9f00 0%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -352,6 +352,7 @@ body{
   -webkit-transform: translateX(-2px);
   transform: translateX(-2px);
 }
+
 
 @media (max-width: 1150px){
     
@@ -467,7 +468,9 @@ body{
         flex-direction: column;
     }
     .promotion-title{
-        font-size: 44px;
+        font-size: 28px;
+        background-image: linear-gradient(to bottom, #fff 44%, #cf9f00 0%);
+        line-height: 1.2;
     }
     
     .promotion-list{
@@ -500,6 +503,11 @@ body{
         font-size: 57px;
         margin-left: 30%;
     }
+    .promotion-title{
+        background-image: linear-gradient(to bottom, #fff 41%, #cf9f00 0%);
+        font-size: 45px;
+        line-height: 1.5;
+    }
 
     .img-png{
         position:absolute;
@@ -507,4 +515,10 @@ body{
         top: 116%;
     }
     
+}
+
+@media (max-width: 455px){
+    .promotion-title{
+        background-image: linear-gradient(to bottom, #fff 29%, #cf9f00 0%);
+    }
 }
